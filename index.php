@@ -897,7 +897,7 @@ $_SESSION['utms']['utm_campaign'] = $_GET['utm_campaign'] ? $_GET['utm_campaign'
                 </div>
                 <div class="modal-body">
                     <div class="info">Скажите нам, как с Вами связаться</div>
-                    <form action="meldonium/thankyou.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя!');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+                    <form action="https://github.com/maks1302/kanken/meldonium/thankyou.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя!');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
                         <input type="hidden" name="product_nomer" value="" />
                         <input type="hidden" name="option_value_id" value="" />
 
@@ -985,7 +985,7 @@ $_SESSION['utms']['utm_campaign'] = $_GET['utm_campaign'] ? $_GET['utm_campaign'
                 </div>
                 <div class="modal-body">
                     <div class="info">Скажите нам, как с Вами связаться</div>
-                    <form action="meldonium/thankyou.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя!');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+                    <form action="https://github.com/maks1302/kanken/meldonium/thankyou.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя!');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
                         <div class="form-group">
                             <input class="form-control in-name" type="text" name="name" placeholder="Ваше имя*">
                         </div>
